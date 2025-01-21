@@ -39,7 +39,7 @@ def load_librtlsdr():
     driver_files += ['librtlsdr.so', 'rtlsdr/librtlsdr.so']
     driver_files += ['rtlsdr.dll', 'librtlsdr.so', 'librtlsdr.dylib']
     driver_files += ['..//rtlsdr.dll', '..//librtlsdr.so']
-    driver_files += ['rtlsdr//rtlsdr.dll', 'rtlsdr//librtlsdr.so']
+    driver_files += ['rtlsdr//rtlsdr.dll', 'rtlsdr//librtlsdr.so', 'rtlsdr//librtlsdr.dll']
     driver_files += [lambda : find_library('rtlsdr'), lambda : find_library('librtlsdr')]
     dll = None
 
